@@ -1,0 +1,4 @@
+ifconfig eth0 down
+ifconfig eth0 hw ether a8:20:22:ba:06:2B
+ifconfig eth0 up
+rm -rf /data/local/mcs
